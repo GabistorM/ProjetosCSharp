@@ -4,7 +4,11 @@
  * vc pode visualizar as tabuadas e depois fazer um exercicio
  */
 
-// Converti 1x1 e 10 x 10 para byte - converter os outros tbm
+/* Converti 1x1 e 10 x 10 para byte - converter os outros tbm
+*   Criar um trecho que apresente a quantidade de acertos
+*   dividir as aplicações em classes
+*   converti para byte ate a tabuada do 4
+*/
 
 using System.Diagnostics;
 
@@ -111,7 +115,7 @@ if (escolha == 2)
 
             Console.WriteLine("Preparado para o exercício?!");
             Console.Write("Vamos lá: 1 x 1 =  ");
-                        byte num11 = Convert.ToByte(Console.ReadLine());
+                        Byte num11 = Convert.ToByte(Console.ReadLine());
                         if (num11 == 1)
                         {
                             Console.WriteLine("Parabéns");
@@ -123,7 +127,7 @@ if (escolha == 2)
                         Console.WriteLine("");
 
                         Console.Write("1 x 2 =  ");
-                        int num12 = Convert.ToInt16(Console.ReadLine());
+                        Byte num12 = Convert.ToByte(Console.ReadLine());
                         if (num12 ==2)
                         {
                             Console.WriteLine("Parabéns");
@@ -135,7 +139,7 @@ if (escolha == 2)
 
 
                         Console.Write("1 x 3 =  ");
-                        int num13 = Convert.ToInt16(Console.ReadLine());
+                        Byte num13 = Convert.ToByte(Console.ReadLine());
                         if (num13 == 3)
                         {
                             Console.WriteLine("Parabéns");
@@ -147,7 +151,7 @@ if (escolha == 2)
 
 
                         Console.Write("1 x 4 =  ");
-                        int num14 = Convert.ToInt16(Console.ReadLine());
+                        Byte num14 = Convert.ToByte(Console.ReadLine());
                         if (num14 == 4)
                         {
                             Console.WriteLine("Parabéns");
@@ -159,7 +163,7 @@ if (escolha == 2)
 
 
                         Console.Write("1 x 5 =  ");
-                        int num15 = Convert.ToInt16(Console.ReadLine());
+                        Byte num15 = Convert.ToByte(Console.ReadLine());
                         if (num15 == 5)
                         {
                             Console.WriteLine("Parabéns");
@@ -171,7 +175,7 @@ if (escolha == 2)
 
 
                         Console.Write("1 x 6 =  ");
-                        int num16 = Convert.ToInt16(Console.ReadLine());
+                        Byte num16 = Convert.ToByte(Console.ReadLine());
                         if (num16 == 6)
                         {
                             Console.WriteLine("Parabéns");
@@ -183,7 +187,7 @@ if (escolha == 2)
 
 
                         Console.Write("1 x 7 =  ");
-                        int num17 = Convert.ToInt16(Console.ReadLine());
+                        Byte num17 = Convert.ToByte(Console.ReadLine());
                         if (num17 == 7)
                         {
                             Console.WriteLine("Parabéns");
@@ -195,7 +199,7 @@ if (escolha == 2)
 
 
                         Console.Write("1 x 8 =  ");
-                        int num18 = Convert.ToInt16(Console.ReadLine());
+                        Byte num18 = Convert.ToByte(Console.ReadLine());
                         if (num18 == 8)
                         {
                             Console.WriteLine("Parabéns");
@@ -207,7 +211,7 @@ if (escolha == 2)
 
 
                         Console.Write("1 x 9 =  ");
-                        int num19 = Convert.ToInt16(Console.ReadLine());
+                        Byte num19 = Convert.ToByte(Console.ReadLine());
                         if (num19 == 9)
                         {
                             Console.WriteLine("Parabéns");
@@ -219,7 +223,7 @@ if (escolha == 2)
 
 
                         Console.Write("1 x 10 =  ");
-                        int num110 = Convert.ToInt16(Console.ReadLine());
+                        Byte num110 = Convert.ToByte(Console.ReadLine());
                         if (num110 == 10)
                         {
                             Console.WriteLine("Parabéns");
@@ -258,7 +262,7 @@ if (escolha == 2)
             else Console.WriteLine("Errado! A resposta correta é 2");
 
             Console.Write("2 x 2 =  ");
-            int num22 = Convert.ToInt16(Console.ReadLine());
+            Byte num22 = Convert.ToByte(Console.ReadLine());
             if (num22 == 4)
             {
                 Console.WriteLine("Parabéns");
@@ -270,7 +274,7 @@ if (escolha == 2)
             Console.WriteLine("");
 
             Console.Write("2 x 3 =  ");
-            int num23 = Convert.ToInt16(Console.ReadLine());
+            Byte num23 = Convert.ToByte(Console.ReadLine());
             if (num23 == 6)
             {
                 Console.WriteLine("Parabéns");
@@ -280,7 +284,7 @@ if (escolha == 2)
             Console.WriteLine("");
 
             Console.Write("2 x 4 =  ");
-            int num24 = Convert.ToInt16(Console.ReadLine());
+            Byte num24 = Convert.ToByte(Console.ReadLine());
             if (num24 == 8)
             {
                 Console.WriteLine("Parabéns");
@@ -291,7 +295,7 @@ if (escolha == 2)
 
 
             Console.Write("2 x 5 =  ");
-            int num25 = Convert.ToInt16(Console.ReadLine());
+            Byte num25 = Convert.ToByte(Console.ReadLine());
             if (num25 == 10)
             {
                 Console.WriteLine("Parabéns");
@@ -302,7 +306,7 @@ if (escolha == 2)
 
 
             Console.Write("2 x 6 =  ");
-            int num26 = Convert.ToInt16(Console.ReadLine());
+            Byte num26 = Convert.ToByte(Console.ReadLine());
             if (num26 == 12)
             {
                 Console.WriteLine("Parabéns");
@@ -312,7 +316,7 @@ if (escolha == 2)
                         Console.WriteLine("");
 
             Console.Write("2 x 7 =  ");
-            int num27 = Convert.ToInt16(Console.ReadLine());
+            Byte num27 = Convert.ToByte(Console.ReadLine());
             if (num27 == 14)
             {
                 Console.WriteLine("Parabéns");
@@ -322,7 +326,7 @@ if (escolha == 2)
                         Console.WriteLine("");
 
             Console.Write("2 x 8 =  ");
-            int num28 = Convert.ToInt16(Console.ReadLine());
+            Byte num28 = Convert.ToByte(Console.ReadLine());
             if (num28 == 16)
             {
                 Console.WriteLine("Parabéns");
@@ -332,7 +336,7 @@ if (escolha == 2)
                         Console.WriteLine("");
 
             Console.Write("2 x 9 =  ");
-            int num29 = Convert.ToInt32(Console.ReadLine());
+            Byte num29 = Convert.ToByte(Console.ReadLine());
             if (num29 == 18)
             {
                 Console.WriteLine("Parabéns");
@@ -342,7 +346,7 @@ if (escolha == 2)
                         Console.WriteLine("");
 
             Console.Write("2 x 10 =  ");
-            int num210 = Convert.ToInt16(Console.ReadLine());
+            Byte num210 = Convert.ToByte(Console.ReadLine());
             if (num210 == 20)
             {
                 Console.WriteLine("Parabéns");
@@ -367,7 +371,7 @@ if (escolha == 2)
 
             Console.WriteLine("Preparado para o exercício?!");
             Console.Write("Vamos lá: 3 x 1 =  ");
-            int num31 = Convert.ToInt16(Console.ReadLine());
+            Byte num31 = Convert.ToByte(Console.ReadLine());
             if (num31 == 3)
             {
                 Console.WriteLine("Parabéns");
@@ -377,7 +381,7 @@ if (escolha == 2)
             else Console.WriteLine("Errado! A resposta correta é 3");
 
             Console.Write("3 x 2 =  ");
-            int num32 = Convert.ToInt16(Console.ReadLine());
+            Byte num32 = Convert.ToByte(Console.ReadLine());
             if (num32 == 6)
             {
                 Console.WriteLine("Parabéns");
@@ -387,7 +391,7 @@ if (escolha == 2)
             Console.WriteLine("");
 
             Console.Write("3 x 3 =  ");
-            int num33 = Convert.ToInt16(Console.ReadLine());
+            Byte num33 = Convert.ToByte(Console.ReadLine());
             if (num33 == 9)
             {
                 Console.WriteLine("Parabéns");
@@ -397,7 +401,7 @@ if (escolha == 2)
             Console.WriteLine("");
 
             Console.Write("3 x 4 =  ");
-            int num34 = Convert.ToInt16(Console.ReadLine());
+            Byte num34 = Convert.ToByte(Console.ReadLine());
             if (num34 == 12)
             {
                 Console.WriteLine("Parabéns");
@@ -408,7 +412,7 @@ if (escolha == 2)
 
 
             Console.Write("3 x 5 =  ");
-            int num35 = Convert.ToInt16(Console.ReadLine());
+            Byte num35 = Convert.ToByte(Console.ReadLine());
             if (num35 == 15)
             {
                 Console.WriteLine("Parabéns");
@@ -419,7 +423,7 @@ if (escolha == 2)
 
 
             Console.Write("3 x 6 =  ");
-            int num36 = Convert.ToInt16(Console.ReadLine());
+            Byte num36 = Convert.ToByte(Console.ReadLine());
             if (num36 == 18)
             {
                 Console.WriteLine("Parabéns");
@@ -430,7 +434,7 @@ if (escolha == 2)
 
 
             Console.Write("3 x 7 =  ");
-            int num37 = Convert.ToInt16(Console.ReadLine());
+            Byte num37 = Convert.ToByte(Console.ReadLine());
             if (num37 == 21)
             {
                 Console.WriteLine("Parabéns");
@@ -441,7 +445,7 @@ if (escolha == 2)
 
 
             Console.Write("3 x 8 =  ");
-            int num38 = Convert.ToInt16(Console.ReadLine());
+            Byte num38 = Convert.ToByte(Console.ReadLine());
             if (num38 == 24)
             {
                 Console.WriteLine("Parabéns");
@@ -452,7 +456,7 @@ if (escolha == 2)
 
 
             Console.Write("3 x 9 =  ");
-            int num39 = Convert.ToInt16(Console.ReadLine());
+            Byte num39 = Convert.ToByte(Console.ReadLine());
             if (num39 == 27)
             {
                 Console.WriteLine("Parabéns");
@@ -463,7 +467,7 @@ if (escolha == 2)
 
 
             Console.Write("3 x 10 =  ");
-            int num310 = Convert.ToInt16(Console.ReadLine());
+            Byte num310 = Convert.ToByte(Console.ReadLine());
             if (num310 == 30)
             {
                 Console.WriteLine("Parabéns");
